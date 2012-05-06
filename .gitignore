@@ -1,6 +1,9 @@
-*.class
+# Sublime stuff
+*.sublime-project
+*.sublime-workspace
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# We use Coffeescript.
+*.js
+
+# No build please.
+build/

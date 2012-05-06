@@ -1,0 +1,24 @@
+{
+  "name": "superplayer",
+  "version": "0.0.1",
+  "author": "Ian Macalinao <ianmacalinao@gmail.com>",
+  "description": "A general administration mod.",
+  "contributors": [ 
+    {
+      "name": "Ian Macalinao",
+      "email": "ianmacalinao@gmail.com"
+    } 
+  ],
+  "main": "./main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://simplyianm@github.com/simplyianm/SuperPlayer.git"
+  },
+  "keywords": [
+    "commands",
+    "admin",
+    "player"
+  ],
+  "license": "AGPLv3"
+}
+
