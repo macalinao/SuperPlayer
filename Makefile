@@ -13,3 +13,4 @@ clean:
 build:
 	@@echo "Building the project in " ${BUILD_DIR} " from " ${SRC_DIR} "..."
 	@@coffee --compile --output build/ src/
+	@@cp ${PREFIX}/mod.json ${BUILD_DIR}/mod.json
