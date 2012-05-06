@@ -7,3 +7,4 @@
 
 # No build please.
 build/
+dist/
