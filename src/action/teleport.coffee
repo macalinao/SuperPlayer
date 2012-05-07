@@ -54,7 +54,7 @@ teleport = exports.teleport = Action.define
     sender: "Player"
 
     executor: (context) ->
-        position;
+        position = null;
 
         flags = context.flags
         unless flags.has "p"
@@ -68,7 +68,7 @@ teleport = exports.teleport = Action.define
             posString = flags.get "p"
             position = getPosFromString posString, context.sender
             
-            # Check if pos is not undefined or false
+            # Check if pos is not defined or false
             unless position
                 context.exit "The position you specified is not a valid position.\n"\
                     + "Valid formats: #{Color.BLUE}world,x,y,z#{Color.NORMAL} or #{Color.BLUE}x,y,z#{Color.NORMAL}."

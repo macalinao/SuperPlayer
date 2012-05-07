@@ -3,10 +3,11 @@ sdk = require "sdk"
 
 # Should this auto-populate?
 actionList = [
-    "teleport"
+    "give",
+    "teleport",
 ]
 
-for exclude in main.config.excludes
+for exclude in main.config.action.excludes
     check = actionList.indexOf exclude
     if check > -1
         actionList.splice check, 1
